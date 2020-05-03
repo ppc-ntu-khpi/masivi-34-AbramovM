@@ -13,9 +13,9 @@ public class Main {
 
     public static void main(String[] args) {
         int[][] matrix = new int[][]{
-		{11, 22, 33, 44},
-		{55, 66, 77, 88},
-		{99, 10, 11, 12}
+		{5, 10, 15, 20 },
+		{25, 30, 35, 40},
+		{45, 50, 55, 60}
        };
 		
         int[][] transposed = Exercise.transpose(matrix);
